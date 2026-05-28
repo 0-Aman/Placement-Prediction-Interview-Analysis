@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.streamlit/
+models/*.joblib
+models/*.json
+data/*.csv
+!models/placement_model.joblib
+!models/metrics.json
+!data/students.csv
+data/*.parquet
+*.log

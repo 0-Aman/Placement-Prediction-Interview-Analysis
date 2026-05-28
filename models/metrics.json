@@ -1,0 +1,49 @@
+{
+  "cv_accuracy_mean": 0.6608,
+  "cv_f1_mean": 0.5745,
+  "cv_roc_auc_mean": 0.7055,
+  "test_accuracy": 0.6542,
+  "test_f1": 0.5829,
+  "test_roc_auc": 0.7082,
+  "classification_report": {
+    "0": {
+      "precision": 0.6923076923076923,
+      "recall": 0.717391304347826,
+      "f1-score": 0.7046263345195729,
+      "support": 138.0
+    },
+    "1": {
+      "precision": 0.5979381443298969,
+      "recall": 0.5686274509803921,
+      "f1-score": 0.5829145728643216,
+      "support": 102.0
+    },
+    "accuracy": 0.6541666666666667,
+    "macro avg": {
+      "precision": 0.6451229183187945,
+      "recall": 0.643009377664109,
+      "f1-score": 0.6437704536919473,
+      "support": 240.0
+    },
+    "weighted avg": {
+      "precision": 0.6522006344171293,
+      "recall": 0.6541666666666667,
+      "f1-score": 0.6528988358160911,
+      "support": 240.0
+    }
+  },
+  "features": [
+    "cgpa",
+    "internships",
+    "projects",
+    "certifications",
+    "hackathons",
+    "aptitude_score",
+    "communication_score",
+    "branch",
+    "degree",
+    "skills_text",
+    "resume_text"
+  ],
+  "model_type": "XGBClassifier"
+}
